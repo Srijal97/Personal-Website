@@ -7,8 +7,9 @@ first_name: Srijal Shekhar
 middle_name: 
 last_name: Poojari
 email: srijal@umd.edu
-description: 
-footer_text: 
+description: >
+footer_text: >
+Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: academic-website, portfolio-website, personal-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -65,7 +66,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-rss_icon: true
+rss_icon: false
 
 contact_note: >
   I would love to hear from you - email would be the best way to reach out!

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Graduate student at the University of Maryland, College Park.
+subtitle: <i> Graduate student at the University of Maryland, College Park. </i>
 
 profile:
   align: right
