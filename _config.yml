@@ -8,10 +8,10 @@ middle_name:
 last_name: Poojari
 email: srijal@umd.edu
 description: >
+  You can know more about me here!
 footer_text: >
-Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: academic-website, portfolio-website, personal-website  # add your own keywords or leave empty
-
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👨🏼‍🎓 # the emoji used as the favicon
 url: https://srijalshekhar.com # the base hostname & protocol for your site
