@@ -25,3 +25,5 @@ I like working with microcontrollers and embedded computers along with all the h
 Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on making e-scooters autonomously drive to a user or a parking lot.  
 
 Oh, and I love airplanes!  
+
+!!!! This website is under a complete redesign and many of the pages are not functional. Sorry! !!!!
