@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my projects classified as "work" (academic, internship or full-time) and "fun".
 nav: true
 display_categories: [work, fun]
 horizontal: false
+order: 2
 ---
 
 <!-- pages/projects.md -->
@@ -20,14 +21,14 @@ horizontal: false
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {%- for project in sorted_projects reversed -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {%- for project in sorted_projects reversed -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
@@ -41,14 +42,14 @@ horizontal: false
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
+    {%- for project in sorted_projects reversed -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
+    {%- for project in sorted_projects reversed -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
