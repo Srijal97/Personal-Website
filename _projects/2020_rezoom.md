@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Full-time at SP Product Development Cell
-description: Several embedded control and power electronic applications developed.
+title: Project ReZoom
+description: Developing Autonomous Electric Scooters
 img: assets/img/2019_PDC_batt_charger.jpg
-importance: 6
+importance: 7
 category: work
 ---
 
-After I graduated with a Bachelor's in Electronics Engineering in May 2019, I worked for an year at the Product Development Cell of my institute with Dr. Y.S. Rao and Dr. Rajendra Sawant. We undertook consultancy projects from the industry, and I led the development of these projects with support from my professors and undergraduate student interns. I worked on four such projects during that time.
+After I graduated with a Bachelor's in Electronics Engineering in May 2019, I worked for an year at the Product Development Cell of my institute with Dr. Y.S. Rao and Dr. Rajendra Sawant. We undertook consultancy projects from the industry, and I led the development of these projects with support from my professors and some undergraduate student interns. I worked on four such projects during that time.
 
 ## High Power Battery Charger
 
@@ -23,7 +23,7 @@ We developed a 4.5kW (135V, 25A) Battery Charger for the Indian Railways. The fi
 </div>
 
 
-The system is controlled by a Texas Instruments C2000 series DSP, with which I learnt many aspects of writing robust embedded software. I would also get to engage in quality discussions with Prof. Sawant, who would happily explain me all the power electronic wizardry in play. When we needed to test our design calculations, we would even create our own transformers and inductors by wrapping wire around large 6 inch ferrite cores!
+The system is controlled by a Texas Instruments C2000 series DSP, and I learnt many aspects of writing robust embedded software. I would also get to engage in quality discussions with Prof. Sawant, who would happily explain me all the power electronic wizardry in play. When we needed to test our design calculations, we even created our own transformers and inductors by wrapping wire around large 6 inch ferrite cores!
 
 The final system worked well, and we tested out the constant voltage and constant current modes by using a large lamp load. 
 
@@ -31,9 +31,12 @@ The final system worked well, and we tested out the constant voltage and constan
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2019_PDC_batt_charger.jpg" title="setup testing with lamp loads" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2019_PDC_batt_charger_v2.jpg" title="newer setup testing" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
-    The battery charger test setup running at full load. 
+    Both images show the same battery charger test setup running at full load. 
 </div>
 
 <div class="row">
@@ -42,7 +45,7 @@ The final system worked well, and we tested out the constant voltage and constan
     </div>
 </div>
 <div class="caption">
-   The IGBT gate pulses (in yellow) and quasi-square wave (in green) across the center of the IGBT legs. 
+   The IGBT gate pulses (in yellow) and quasi-square wave (in green) whose pulse width regulates the rectified output DC voltage. 
 </div>
 
 The video below shows a demonstration of the system's short circuit protection. It is one of the few things I have implemented that have never failed to work! :D
@@ -53,11 +56,11 @@ The video below shows a demonstration of the system's short circuit protection. 
 
 This machine is a 12kW induction heater which utilizes an IGBT based high frequency inverter. The hardware for this project was mostly ready and an early version was being tested at the time I joined the team. However, there were many issues like erratic button operation, sluggish control and random failures. I performed a complete overhaul of the embedded code, and also improved the physical circuit to make it more robust to noise. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2019_PDC_heater_machine.jpg" title="The Induction Heating Machine" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/2019_PDC_induction_heater_PCB.jpg" title="Induction Heater PCB" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -87,7 +90,7 @@ In this first one, we had to create a 24V/15A DC Motor Drive for a PMDC or Shunt
     The motor driver board we developed. 
 </div>
 
-We also had to develop the 24V/15A power supply used to power this system. That was a whole another adventure! I blew more MOSFETs than I could count!
+We also had to develop the 24V/15A power supply used to power this system. This was a whole another adventure! I blew more MOSFETs than I could count!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -104,6 +107,15 @@ We also had to develop the 24V/15A power supply used to power this system. That 
 The second project was to develop a Universal Controller for Solar Water Pump Motors ranging from 3HP to 10HP. These brushless DC motors are buried deep in the ground and are used to pump up water for agricultural applications. Because of this, it is better to not use any external sensors, like a hall effect encoder, and instead rely on the motor back EMF for motor speed control. 
 
 However, this back EMF control is much more complicated for a brushless DC motor. You see, for a simple PMDC motor, the back EMF is just averaged out, and motor speed can be varied depending on the _magnitude_ of back EMF. But for a three phase brushless DC motor, for the motor to spin, each of the phases have to be excited precisely within a very narrow time frame - and this time frame can be estimated depending on when the back EMF signal crosses 0.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2019_PDC_bldc_setup.jpg" title="DC motor drive" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The water pump brushless DC motor on the left connected to our motor driver board. During testing, we had to submerge the motor in a bucket of water before running it.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -153,5 +165,5 @@ Choosing to work at PDC was one of the best decisions I've made. I made some won
     </div>
 </div>
 <div class="caption">
-    My desk during the initial few months! We later moved in to a fancy new room, but I miss the "being surrounded with circuits" vibe. 
+    My desk during the initial few months! We later moved in to a fancy new room, but I sometimes miss the "being surrounded with circuits" vibe. 
 </div>
