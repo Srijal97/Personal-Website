@@ -80,7 +80,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: false  # your blog must have a name for it to show up in the nav bar
+blog_name: false  # your blog must have a name for it to show up in the nav bar. Setting this name to "false", disables the blog.
 blog_description: THIS PAGE IS STILL NOT COMPLETE. ALL POSTS BELOW ARE PLACEHOLDERS. 
 permalink: /blog/:year/:title/
 
