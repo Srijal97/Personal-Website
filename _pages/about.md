@@ -20,10 +20,10 @@ Hello!
 
 I'm a maker, tinkerer, engineer and an aspiring researcher. I am currently pursuing an M.S. in Systems Engineering - where I have fun with ciruits and software!  
 
-My research insterests lie at the intersection of applied control, robotics and embedded systems. I like working with microcontrollers and embedded computers along with all the high power and low power circuits around them. Run for months off a battery? [Check](https://srijalshekhar.com/projects/2018_rois/). Hum with 5kWs of power? [Check](https://srijalshekhar.com/projects/2019_pdc/).  
+My research interests lie at the intersection of applied control, robotics and embedded systems. I like working with microcontrollers and embedded computers along with all the high power and low power circuits around them. Run for months off a battery? [Check](https://srijalshekhar.com/projects/2018_rois/). Hum with 5kWs of power? [Check](https://srijalshekhar.com/projects/2019_pdc/).  
 
-Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on making e-scooters autonomously drive to a user or a parking lot. 
+Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on making electric scooters autonomously drive back to a parking lot and reduce the clutter they create. 
 
 Oh, and I love airplanes!  
 
-!!!! This website is under a complete redesign and many of the pages are not functional. Sorry! !!!!
+!!!! This website is under a complete redesign and some of the pages are not functional. Sorry! !!!!
