@@ -25,5 +25,3 @@ My research interests lie at the intersection of applied control, robotics and e
 Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on making electric scooters autonomously drive back to a parking lot and reduce the clutter they create. 
 
 Oh, and I love airplanes!  
-
-!!!! This website is under a complete redesign and some of the pages are not functional. Sorry! !!!!
