@@ -13,7 +13,7 @@ Demand for autonomous, self-driving modes of transportation are becoming increas
     <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/2020_rezoom_clutter1.png" title="Scooter Clutter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.html path="assets/img/2020_rezoom_clutter2.png" title="Scooter Clutter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
