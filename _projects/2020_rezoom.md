@@ -10,7 +10,7 @@ category: work
 Demand for autonomous, self-driving modes of transportation are becoming increasingly popular as our society advances towards more efficient ways to get around. Despite their promise of sustainable, accessible, and equitable transportation, shared electric scooters clutter city sidewalks and landscapes. This public nuisance causes city planners to limit the number of shared operators and the size of their scooter fleets, which in turn reduces revenue and diminishes the potential benefits of dockless scooters.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/2020_rezoom_clutter1.png" title="Scooter Clutter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
