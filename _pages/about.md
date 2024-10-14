@@ -22,4 +22,4 @@ I'm a Ph.D. student in Electrical and Computer Engineering at the University of 
 
 My research interests lie at the intersection of applied control, robotics and embedded systems. As my work is highly applied, I spend the majority of my time (almost all of it if I'm honest) debugging software to ensure that our robots work reliably on the field. I am experienced in developing software and hardware to support not just the central research problem but the entire application ecosystem. I also like working with microcontrollers and embedded computers along with all the high power and low power circuits around them. 
 
-Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on the DARPA Triage Challenge, where we build robots to perform triage in a mass casualty incident. During my M.S. I developed electric scooters that can autonomously drive back to a parking lot to reduce the clutter that they create. 
+Presently, I am working as a Graduate Research Assistant with Dr. Derek Paley on the DARPA Triage Challenge, where we build robots to perform triage in a mass casualty incident. 
