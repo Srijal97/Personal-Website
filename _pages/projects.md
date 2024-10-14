@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of my projects classified as "work" (academic, internship or full-time) and "fun".
+description: a growing collection of my projects classified as "work" (academic, internship or full-time) and "fun".
 nav: true
 display_categories: [work, fun]
 horizontal: false
